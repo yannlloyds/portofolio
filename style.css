@@ -14,7 +14,7 @@
 
 }
 html{
-    font-size: 70%;
+    font-size: 62.5%;
     overflow-x: hidden;
 }
 body{
@@ -119,7 +119,7 @@ section{
     text-align: right;
 }
 .home-content h1{
-    font-size: 8rem;
+    font-size: 5rem;
     font-weight: 700;
     margin-top: 1.5rem;
     line-height: 1;
@@ -234,16 +234,16 @@ section{
                 0 0 100px var(--main-color);
 }
 .about-content h2{
-    font-size: 7rem;
+    font-size: 5rem;
     text-align: left;
 }
 .about-content p{
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     line-height: 1.7;
 
 }
 .about-content .btn{
-    margin: 3rem 0;
+    margin: 2rem 0;
     transition: 0.4s ease-in-out;
 }
 .about-content .btn:hover{
@@ -264,7 +264,7 @@ section{
 
 .heading{
     text-align: center;
-    font-size: 7rem;
+    font-size: 5rem;
     margin: 5rem 0;
 }
 
@@ -373,7 +373,8 @@ section{
 
 }
 .project-card h3{
-    font-size: 3rem;
+    font-size: 2rem;
+
 
 }
 .project-card p{
@@ -421,7 +422,7 @@ section{
 
 }
 .certificate-card h3{
-    font-size: 1.8rem;
+    font-size: 1.5rem;
 
 }
 .certificate-card p{
@@ -508,20 +509,29 @@ section{
     font-size: 16px;
 }
 
-@media(max-width:1285px){
+@media(max-width:1268px){
+    .header {
+        padding: 2rem 5%;
+    }
+    section {
+        padding: 8rem 5%;
+    }
     #menu-icon{
         display: block;
     }
     .navbar{
         position: absolute;
         top: 5%;
-        right: 0;
-        width: 40%;
-        padding: 1rem 3rem;
+        right: 6rem;
+        width: 35%;
+        padding: 1rem 2rem;
         background: rgba(0, 0, 0, 0.8);
-        border-bottom-left-radius: 3rem;
+        border: 1px solid var(--main-color);
+        border-radius: 1.5rem;
+        /*border-bottom-left-radius: 3rem;
         border-left: 2px solid var(--main-color);
         border-bottom: 2px solid var(--main-color);
+        */
         display: none;
     }
     .navbar a{
@@ -548,7 +558,8 @@ section{
         text-align: center;
     }
     .home-img img{
-        width: 56vw;
+        width: 100%;
+        max-width: 300px;
     }
     .about{
         flex-direction: column-reverse;
