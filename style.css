@@ -570,7 +570,9 @@ section{
         margin: 2rem 0;
     }
     .about img{
-        width: 52vw;
+        width: 100%;
+        max-width: 300px;
+        
     }
     .contact form{
         flex-direction: column;
