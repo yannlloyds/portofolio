@@ -547,7 +547,7 @@ section{
         position: absolute;
         top: 5%;
         right: 6rem;
-        width: 35%;
+        width: 40%;
         padding: 1rem 2rem;
         background: rgba(0, 0, 0, 0.8);
         border: 1px solid var(--main-color);
@@ -601,32 +601,6 @@ section{
     }
     .contact form{
         flex-direction: column;
-    }
-    .projects-box,
-    .certificate-box{
-        grid-template-columns: 1fr;
-        gap: 5rem;
-    }
-
-    .project-card,
-    .certificate-card{
-        width: 75%;
-        padding: 3rem 1.5rem;
-    }
-
-    .project-card img,
-    .certificate-card img{
-        max-width: 270px;
-    }
-
-    .project-card h3,
-    .certificate-card h3{
-        font-size: 1.7rem;
-    }
-
-    .project-card p,
-    .certificate-card p{
-        font-size: 1.4rem;
     }
 }
 
